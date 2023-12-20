@@ -15,7 +15,7 @@ const definitions: Definition[] = [
         model: 'YSR-MINI-01_wwcw',
         vendor: 'YSRSAI',
         description: 'Zigbee LED controller (WW/CW)',
-        extend: tuya.extend.light_onoff_brightness_colortemp_color(),
+        extend: tuya.extend.light_onoff_brightness_colortemp(),
     },
     {
         zigbeeModel: ['ZB-DL01'],
